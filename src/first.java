@@ -42,8 +42,6 @@ public class first {
 		System.out.print("3*9 = ");
 		System.out.println(3*9);
 		
-
-		
 	}
 
 }
