@@ -4,7 +4,7 @@ public class Second {
 
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("구구단 중 출력할 단은? : ");
+		System.out.print("구구단 중 출력할 단은? : ");
 		final int number = scanner.nextInt();
 		System.out.println("number : " + number);
 		
