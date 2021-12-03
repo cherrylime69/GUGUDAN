@@ -5,16 +5,18 @@ public class sixth {
 		
 		for (int i = 2; i <10; i++) {
 			System.out.println(i + "단을 출력합니다");
-			int[] result = gugudan.calculate(i);
-			gugudan.print(result);
+			int[] result = fifth.caculate(i);
+			fifth.print(result);
 		}
 			
 	}
 }
 
 
-
-class Gugudan { //여기서 public은 쓸 수 없다. 파일명과 일치하지 않아 에러가 발생한다
+//여기서 public은 쓸 수 없다. 파일명과 일치하지 않아 에러가 발생한다. 
+//인프런 강의에서는 sixth 클래스 안에 있는 클래스를 쓰는게 아니라 
+//fifth에 있는 클래스를 쓰도록 힌트를 준 것이다
+class Gugudan { 
 	
 	public static int[] calculate (int times) {
 		int[] result = new int[9];
