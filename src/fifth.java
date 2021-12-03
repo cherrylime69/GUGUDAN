@@ -11,7 +11,7 @@ public class fifth {
 	}
 	
 	public static int[] caculate(int times) {
-		int[] result = new int[9];
+		int[] result = new int[times];
 		
 		for (int i=0; i<result.length; i++) {
 			result[i] = times * (i+1);
